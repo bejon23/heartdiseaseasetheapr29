@@ -5,7 +5,7 @@ import pickle
 app = Flask(__name__)
 
 # Load the trained model
-model = pickle.load(open(os.path.join("D:/template_reversecode", "svm_clf.pkl"), "rb"))
+model = pickle.load(open(os.path.join("D:/template_reversecode","svm_clf.pkl"), "rb"))
 
 # Set the template folder path
 template_folder = os.path.join("D:/template_reversecode", "templates")
